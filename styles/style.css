@@ -106,3 +106,22 @@ hr{
     width: 90px;
     align-items: center;
 }
+
+/*
+------------- Media Queries------------
+ */
+
+ /* -------Mobile Devise------ */
+
+ @media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .player{
+        justify-content: center;
+    }
+    .players, .blogs{
+        background-color: aqua;
+        grid-template-columns: repeat(1, 1fr);
+    }
+ }
